@@ -155,7 +155,7 @@ p{
 .hero{
     text-align: center;
     padding: 10rem 0;
-    background: radial-gradient(#272727,  #2e2e2e); 
+ 
 
 
 
@@ -216,7 +216,7 @@ article{
 @supports (background-blend-mode: multiply){
     .hero{
         background-image: url(https://imgur.com/9yb73zA), 
-        radial-gradient(#272727,  #2e2e2e); 
+            radial-gradient(#272727,  #2e2e2e);
         background-size: 10%;
     }
 }
