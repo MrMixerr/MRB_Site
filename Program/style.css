@@ -155,16 +155,6 @@ p{
 .hero{
     text-align: center;
     padding: 10rem 0;
- 
-
-
-
-    background-image: url(https://imgur.com/9yb73zA); 
-    background-size: 10%;
-    
-        
-    
-    
 }
 .ANav{
     color: red;
@@ -214,7 +204,9 @@ article{
 
 @supports (background-blend-mode: multiply){
     .hero{
-        background-image: url(https://imgur.com/9yb73zA);
+        background: url(/MRB_Site/Images/RecordsPng.png),
+        radial-gradient(#272727,  #2e2e2e);
+        background-blend-mode: overlay;
         background-size: 10%;
     }
 }
