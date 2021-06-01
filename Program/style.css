@@ -159,7 +159,7 @@ p{
 
 
 
-    background: url(/MRB_Site/Images/RecordsPng.png), 
+    background: url(https://imgur.com/9yb73zA), 
         radial-gradient(#272727,  #2e2e2e); 
     background-size: 10%;
     
@@ -216,7 +216,7 @@ article{
 
 @supports (background-blend-mode: multiply){
     .hero{
-        background: url(/MRB_Site/Images/RecordsPng.png), 
+        background: url(https://imgur.com/9yb73zA), 
         radial-gradient(#272727,  #2e2e2e); 
         background-size: 10%;
     }
