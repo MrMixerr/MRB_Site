@@ -155,6 +155,18 @@ p{
 .hero{
     text-align: center;
     padding: 10rem 0;
+    background: radial-gradient(#272727,  #2e2e2e); 
+
+
+
+    background: url(/Images/RecordsPng.png), 
+        radial-gradient(#272727,  #2e2e2e); 
+    background-size: 10%;
+    
+    background-blend-mode: multiply;
+        
+    
+    
 }
 .ANav{
     color: red;
@@ -204,9 +216,8 @@ article{
 
 @supports (background-blend-mode: multiply){
     .hero{
-        background: url(/MRB_Site/Images/RecordsPng.png),
-        radial-gradient(#272727,  #2e2e2e);
-        background-blend-mode: multiply;
+        background: url(/Images/RecordsPng.png), 
+        radial-gradient(#272727,  #2e2e2e); 
         background-size: 10%;
     }
 }
