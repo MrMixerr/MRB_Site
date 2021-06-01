@@ -206,7 +206,7 @@ article{
     .hero{
         background: url(/MRB_Site/Images/RecordsPng.png),
         radial-gradient(#272727,  #2e2e2e);
-        background-blend-mode: overlay;
+        background-blend-mode: multiply;
         background-size: 10%;
     }
 }
