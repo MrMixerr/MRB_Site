@@ -1,0 +1,223 @@
+body{
+    margin: 0;
+    font-family: monospace;
+    line-height: 1.5;
+   
+}
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 2em;
+}
+
+.face,
+section,
+header{
+    background-color: black;
+    color: white;
+}
+h1, 
+h2,
+h3,
+p{
+    margin: 0%;
+    flex-wrap: wrap;
+}
+
+.news_Newimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5rem;
+    margin-top: 5em;
+
+}
+.news{
+    outline-style: inset;
+    outline-color: rgb(19, 19, 19);
+}
+.News_Newsdes{
+    font-size: 1.2rem;
+}
+.News_NewTitle{
+    font-size: 2.5rem;
+}
+.btnL{
+    font-size: 1.5rem;
+    display: inline-block;
+    text-decoration: none;
+    background: red;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: .25cm .3cm;
+    color: white;
+    border-radius: 2mm;
+    transition: 
+        transform 250ms ease-in-out;
+        opacity: 250ms linear;
+}
+.artnames{ 
+    color: rgb(255, 255, 255);
+    padding-left: 1.5rem;
+    font-weight: 900;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+.artnamesM{
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+.at{
+    color: rgb(100, 0, 0);
+    font-weight: 900;
+    font-size: 3rem;
+    text-decoration: none;
+    text-align: center;
+}
+.link{
+    color: rgb(100, 0, 0);
+    font-weight: 900;
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+.mainartist{
+    text-decoration: none;
+
+}
+.artists{
+    background-color: rgb(8, 8, 8);
+    outline-style: inset;
+    outline-width: 0.2rem;
+    outline-color: rgb(104, 104, 104);
+    
+}
+.st{
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.artimg{
+    height: 9rem;
+    width: 9rem;
+    align-content: center;
+}
+.artimgD{
+    height: 9rem;
+    width: 9rem;
+    align-content: center;
+    border-radius: 4em;
+}
+.container{
+    width: 85%;
+    max-width: 65cm;
+    margin: 0% auto;
+}
+.containernav{
+    width: 85%;
+    max-width: 65cm;
+    margin: 0% auto;
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    background: red;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: .25cm .3cm;
+    color: white;
+    border-radius: 2mm;
+    transition: 
+        transform 250ms ease-in-out;
+        opacity: 250ms linear;
+}
+.btn:hover,
+.btn:focus{
+    transform: scale(1.1);
+    opacity: 0.7;
+}
+.mt{
+    font-size: 4rem;
+    line-height: 1.1;
+    text-transform: uppercase;
+    text-shadow: 1.5cm;
+}
+.basetxt{
+    padding-top: 2rem;
+    text-align: flex;
+    font-size: 1.5rem;
+}
+
+.hero{
+    text-align: center;
+    padding: 10rem 0;
+    background: radial-gradient(#272727,  #2e2e2e); 
+
+
+
+    background: url(/Images/RecordsPng.png), 
+        radial-gradient(#272727,  #2e2e2e); 
+    background-size: 10%;
+    
+    background-blend-mode: multiply;
+        
+    
+    
+}
+.ANav{
+    color: red;
+    font-weight: 900;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.Nav{
+    color: white;
+    font-weight: 900;
+    font-size: 1.5rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    text-decoration: none;
+    transition: 
+        transform 250ms ease-in-out;
+        opacity: 250ms linear;
+}
+.date{
+    opacity: 15%;
+    font-size: 1.5em;
+    text-align: center;
+}
+.news_title{
+    text-align: center;
+    font-size: 4em;
+}
+article{
+    margin-top: 3rem;
+    text-align: center;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 1rem;
+}
+.row > *{
+    flex-basis: 15%;
+    min-width: 15em;
+}
+.mantasart{
+    width: 10rem;
+}
+
+@supports (background-blend-mode: multiply){
+    .hero{
+        background: url(/Images/RecordsPng.png), 
+        radial-gradient(#272727,  #2e2e2e); 
+        background-size: 10%;
+    }
+}
