@@ -162,7 +162,6 @@ p{
     background: url(/Images/recordsgay.png), 
         radial-gradient(#272727,  #2e2e2e); 
     background-size: 10%;
-    
     background-blend-mode: multiply;
         
     
@@ -219,6 +218,5 @@ article{
         background: url(/Images/recordsgay.png), 
             radial-gradient(#272727,  #2e2e2e); 
         background-size: 10%;
-        background-blend-mode: multiply;
     }
 }
