@@ -39,24 +39,13 @@ p{
 }
 .News_Newsdes{
     font-size: 1.2rem;
+    text-transform: capitalize;
 }
 .News_NewTitle{
     font-size: 2.5rem;
-}
-.btnL{
-    font-size: 1.5rem;
-    display: inline-block;
-    text-decoration: none;
-    background: red;
-    font-weight: 700;
     text-transform: uppercase;
-    padding: .25cm .3cm;
-    color: white;
-    border-radius: 2mm;
-    transition: 
-        transform 250ms ease-in-out;
-        opacity: 250ms linear;
 }
+
 .artnames{ 
     color: rgb(255, 255, 255);
     padding-left: 1.5rem;
@@ -112,11 +101,8 @@ p{
     align-content: center;
     border-radius: 4em;
 }
-.container{
-    width: 85%;
-    max-width: 65cm;
-    margin: 0% auto;
-}
+
+.container,
 .containernav{
     width: 85%;
     max-width: 65cm;
@@ -132,14 +118,59 @@ p{
     color: white;
     border-radius: 2mm;
     transition: 
-        transform 250ms ease-in-out;
+        250ms ease-in-out;
         opacity: 250ms linear;
 }
-.btn:hover,
-.btn:focus{
-    transform: scale(1.1);
-    opacity: 0.7;
+.btnL{
+    font-size: 1.5rem;
+    display: inline-block;
+    text-decoration: none;
+    background: red;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: .25cm .3cm;
+    color: white;
+    border-radius: 2mm;
+    transition: 
+        250ms ease-in-out;
+        opacity: 250ms linear;
 }
+.btnL:hover,
+.btnL:focus,
+.btn:hover,
+.btn:focus
+{
+    transform: scale(1.1);
+    opacity: 25%;
+}
+.ANav{
+    color: red;
+    font-weight: 900;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: 
+        250ms ease-in-out;
+        opacity: 250ms linear;
+}
+.Nav{
+    color: white;
+    font-weight: 900;
+    font-size: 1.5rem;
+    padding: 5rem 0;
+    padding-bottom: .5rem;
+    text-decoration: none;
+    transition: 
+        250ms ease-in-out;
+        opacity: 250ms linear;
+}
+.ANav:focus,
+.ANav:hover,
+.Nav:focus,
+.Nav:hover{
+    transform: scale(1.1);
+    opacity: 25%;
+}
+
 .mt{
     font-size: 4rem;
     line-height: 1.1;
@@ -156,45 +187,24 @@ p{
     text-align: center;
     padding: 10rem 0;
     background: radial-gradient(#272727,  #2e2e2e); 
-
-
-
-    background: url(/Images/recordsgay.png), 
+    background: url(/Images/RecordsPng.png), 
         radial-gradient(#272727,  #2e2e2e); 
     background-size: 10%;
-    background-blend-mode: multiply;
-        
-    
-    
-}
-.ANav{
-    color: red;
-    font-weight: 900;
-    font-size: 1.5rem;
-    text-decoration: none;
+    background-blend-mode: multiply; 
 }
 
-.Nav{
-    color: white;
-    font-weight: 900;
-    font-size: 1.5rem;
-    padding-top: .5rem;
-    padding-bottom: .5rem;
-    text-decoration: none;
-    transition: 
-        transform 250ms ease-in-out;
-        opacity: 250ms linear;
-}
 .date{
     opacity: 15%;
     font-size: 1.5em;
     text-align: center;
 }
-.news_title{
+.news_titleU{
     text-align: center;
     font-size: 4em;
+    text-transform: uppercase;
 }
-article{
+article,
+.news_title{
     margin-top: 3rem;
     text-align: center;
 }
