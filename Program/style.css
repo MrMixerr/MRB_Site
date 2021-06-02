@@ -152,11 +152,12 @@ p{
         250ms ease-in-out;
         opacity: 250ms linear;
 }
+
 .Nav{
     color: white;
     font-weight: 900;
     font-size: 1.5rem;
-    padding: 5rem 0;
+    margin-top: 5rem;
     padding-bottom: .5rem;
     text-decoration: none;
     transition: 
