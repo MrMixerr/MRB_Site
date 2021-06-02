@@ -215,8 +215,7 @@ article{
 
 @supports (background-blend-mode: multiply){
     .hero{
-        background: url(/Images/recordsgay.png), 
-            radial-gradient(#272727,  #2e2e2e); 
+        background: url(/Images/recordsgay.png);
         background-size: 10%;
     }
 }
