@@ -33,6 +33,12 @@ p{
     margin-top: 5em;
 
 }
+nav{
+    text-align:center;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
 .news{
     outline-style: inset;
     outline-color: rgb(19, 19, 19);
@@ -73,17 +79,22 @@ p{
     text-decoration: none;
     text-align: center;
 }
-
+.linkc{
+    color: rgb(100, 0, 0);
+    font-weight: 900;
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-align: center;
+}
 .mainartist{
     text-decoration: none;
-
+    text-align: center;
 }
 .artists{
     background-color: rgb(8, 8, 8);
     outline-style: inset;
     outline-width: 0.2rem;
     outline-color: rgb(104, 104, 104);
-    
 }
 .st{
     text-align: center;
@@ -93,13 +104,15 @@ p{
 .artimg{
     height: 9rem;
     width: 9rem;
-    align-content: center;
+    display: inline-flex;
+    justify-content: center;
 }
 .artimgD{
     height: 9rem;
     width: 9rem;
-    align-content: center;
     border-radius: 4em;
+    display: inline-flex;
+    justify-content: center;
 }
 
 .container,
@@ -109,6 +122,7 @@ p{
     margin: 0% auto;
 }
 .btn{
+    font-size: 1.2rem;
     display: inline-block;
     text-decoration: none;
     background: red;
@@ -145,8 +159,9 @@ p{
 }
 .ANav{
     color: red;
-    font-weight: 900;
+    font-weight: 800;
     font-size: 1.5rem;
+    text-transform: uppercase;
     text-decoration: none;
     transition: 
         250ms ease-in-out;
@@ -155,9 +170,9 @@ p{
 
 .Nav{
     color: white;
-    font-weight: 900;
+    font-weight: 800;
     font-size: 1.5rem;
-    margin-top: 5rem;
+    text-transform: uppercase;
     padding-bottom: .5rem;
     text-decoration: none;
     transition: 
@@ -177,6 +192,10 @@ p{
     line-height: 1.1;
     text-transform: uppercase;
     text-shadow: 1.5cm;
+}
+.ct{
+    font-size: 1.5em;
+    opacity: 75%;
 }
 .basetxt{
     padding-top: 2rem;
@@ -204,9 +223,27 @@ p{
     font-size: 4em;
     text-transform: uppercase;
 }
-article,
+.news_section{
+    padding-bottom: 5em;
+    text-align: center;
+    padding-top: 5em;
+}
+.AB{
+    float: left;
+    width: 50%;
+}
+.Ab_name{
+    margin-top: 3rem;
+    font-size: 3em;
+}
+.ab_more{
+    font-size: 1rem;
+    text-transform: capitalize;
+}
 .news_title{
     margin-top: 3rem;
+    font-size: 3em;
+    font-style: italic;
     text-align: center;
 }
 .row{
@@ -223,6 +260,54 @@ article,
 .mantasart{
     width: 10rem;
 }
+
+.MainLogin{
+    margin: 5em;
+    outline-width: 0.1em;
+    background-color:rgb(12, 12, 12);
+}
+.centerf{
+    text-align: center;
+    font-size: 2.5em;
+    width: 100%;
+    background-color: black;
+    padding-bottom: 1.5em;
+}
+input{
+    font-size: 1.5em;
+    width: 100%;   
+    margin: 8px 0;  
+    padding: 18px 3px;   
+    display: inline-block;   
+    box-sizing: border-box;  
+    color: white;
+    background-color: rgb(27, 27, 27);
+}
+.LoginCenterText{
+    text-align: center;
+}
+.btncenter{
+    text-align: center;
+}
+.btnlogin{
+    border: none;
+    font-size: 2em;
+    font-family: monospace;
+    color: white;
+    background-color: rgb(27, 27, 27);
+}
+label{
+    font-size: 2em;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
 
 @supports (background-blend-mode: multiply){
     .hero{
